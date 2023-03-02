@@ -32,6 +32,6 @@ app.get("/technica", (req, res) => {
   res.render("technica");
 });
 
-app.listen(process.env.PORT || 6900, () => {
-  console.log(`Server listening on port 6900`);
+app.listen(7000, () => {
+  console.log(`Server listening on port 7000`);
 });
